@@ -3,7 +3,7 @@ var express = require('express');
 var cors = require('cors');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
-// require('./connection.js');
+require('./connection.js');
 
 var app = express();
 
